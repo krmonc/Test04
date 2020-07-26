@@ -8,9 +8,16 @@ public class School {
         
         System.out.println("Student's name is set (Constructor): " + student.getFirstName());
  
-        student.setFirstName("John");
+        student.setFirstName("Veli");
         
         System.out.println("Student's name is set (Main): " + student.getFirstName());
+        
+        System.out.println("Student's lastname is set (Constructor): " + student.getFamilyName());
+        
+        student.setFamilyName("Korkmaz");
+        
+        System.out.println("Student's lastname is set (Main): " + student.getFamilyName());
+        
     }
  
 }
